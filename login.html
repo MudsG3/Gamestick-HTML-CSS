@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
 
-  <title>Gamestick</title>
+  <title>Login Gamestick</title>
 </head>
 <body>
     <header>
@@ -26,21 +26,44 @@
       </div>
 
       <div class="dropdown_menu">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="#">Sobre</a></li>
         <li><a href="#">Serviços</a></li>
         <li><a href="#">Contatos</a></li>
-        <li><a href="login.html" class="action_btn">Get Start</a></li>
+        <li><a href="#" class="action_btn">Get Start</a></li>
       </div>
     </header>
 
     <main>
-      <section id="hero">
-        <h1>BEM VINDOS</h1>
-        <img src="./assets/logo.png" alt="gamestick">
-        <p>A Patrulha Gamestick está se Reunindo, os teclados estão sento ajustados, e os controles estão prontos para a ação! </p>
-        <br><br>
-        <p>Prepare-se para entrar no mundo dos games, onde a alegria é a missão principal e a diversão é a recompensa! <br>#PatrulhaGamestick #PartiuAventura</p>
+      <section id="hero-login">
+        <fieldset>
+            <div class="fieldset-wrapper">
+              <legend>Login</legend>
+    
+              <div class="input-wrapper">
+                <label for="user">Usuário</label>
+                <input type="text" id="user" />
+              </div>
+      
+              <div class="input-wrapper">
+                <label for="password">Senha</label>
+                <input type="password" id="password" />
+              </div>
+    
+                <div class="box-1">
+                  <div class="btn btn-one">
+                    <span>ENTRAR</span>
+                  </div>
+                </div>
+              <div class="cadastro">
+                <p>Ou <a href="#">cadastre-se</a></p>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+  
+      </form>
+
       </section>
     </main>
 
